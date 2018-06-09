@@ -16,6 +16,6 @@ class String
   end
 
   def count_sentences
-    total = self.count("?!.")
+    total = self.count("? ") + 
   end
 end
